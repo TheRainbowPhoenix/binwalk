@@ -1,5 +1,13 @@
 # Binwalk v3
 
+TLDR:
+Open codespace on this repo, drop your firmware into a temporary folder, run terminal `binwalk -Me firmware.bin` and boom. No need for rust or that nonsense. Just works as intended.
+
+Ignore the following if you are just an user.
+
+---
+
+
 This is an updated version of the Binwalk firmware analysis tool, re-written in Rust for speed and accuracy.
 
 ![binwalk v3](images/binwalk_animated.svg)
